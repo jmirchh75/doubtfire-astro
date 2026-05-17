@@ -3,8 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ontrackdocumentation.netlify.app',
-  
+
   server: {
     host: true
   },
@@ -35,7 +34,7 @@ export default defineConfig({
           ],
         },
         {
-          label: 'Intial Setup',
+          label: 'Initial Setup',
           autogenerate: {
             directory: '/setup',
           },
@@ -45,7 +44,7 @@ export default defineConfig({
               link: '/frontend/page',
             },
             {
-              label: 'OnTrack Intial Setup Guidance',
+              label: 'OnTrack Initial Setup Guidance',
               link: '/setup/set',
             },
           ],
